@@ -1,0 +1,35 @@
+#navbar{
+  background-color: #58ACFA;
+}
+
+.divUser {
+  float: right;
+  margin-right: 8%;
+  color: white;
+  cursor: pointer;
+}
+
+.divUserItens {
+  padding-left: 2%;
+}
+
+.divUserItensnoLine {
+  -webkit-text-decoration-line: none;
+  text-decoration-line:none;
+}
+
+/* Estilos para smartphone */
+@media only screen and (min-width: 320px) and (max-width: 415px) {
+  .divUser {
+    margin-top: -20%;
+    margin-right: 10%;
+  }
+}
+
+/* Estilos para tablets */
+@media only screen and (min-width: 760px) and (max-width: 1020px) {
+  .divUser {
+    margin-top: -9%;
+    margin-right: 10%;
+  }
+}

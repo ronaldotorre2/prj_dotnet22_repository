@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "c:\\Users\\Ronaldo\\Deve\\dotnet\\sgc\\SGC.Infra\\SGC.Infra.csproj",
+  "TargetFramework": "netstandard2.0",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}

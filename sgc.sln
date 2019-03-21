@@ -1,0 +1,204 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SGC.Api", "SGC.Api\SGC.Api.csproj", "{AEBD013B-E003-416F-80BA-1CDD5DE06559}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SGC.Domain", "SGC.Domain\SGC.Domain.csproj", "{D84EDD70-E2E2-4E26-8681-32BB55ACF76B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SGC.Infra", "SGC.Infra\SGC.Infra.csproj", "{AD33B4B6-23D8-4478-9C19-BBABABD4FE55}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SGC.Shared", "SGC.Shared\SGC.Shared.csproj", "{3B453F6A-0554-4EBB-AC26-2EEABDA5492B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SGC.Business", "SGC.Business", "{C693987D-9D6E-4381-B1D5-DD5476A08961}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SGC.DataAcces", "SGC.DataAcces", "{893129F1-FEDC-4E30-A906-342763E949CD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SGC.WebHost", "SGC.WebHost", "{632A3EC9-1287-424C-AA37-8BB83DCC4E4D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SGC.Common", "SGC.Common", "{0E5E7841-F7F0-49C1-84B6-5E894A85A8B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SGC.Presentation", "SGC.Presentation", "{3CD54F81-CF6D-4502-9545-1C458EDFF2FD}"
+	ProjectSection(SolutionItems) = preProject
+		SGC.Web\.angulardoc.json = SGC.Web\.angulardoc.json
+		SGC.Web\.editorconfig = SGC.Web\.editorconfig
+		SGC.Web\.gitignore = SGC.Web\.gitignore
+		SGC.Web\angular.json = SGC.Web\angular.json
+		SGC.Web\package-lock.json = SGC.Web\package-lock.json
+		SGC.Web\package.json = SGC.Web\package.json
+		SGC.Web\tsconfig.json = SGC.Web\tsconfig.json
+		SGC.Web\tslint.json = SGC.Web\tslint.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B682C3B8-9EEB-4814-9D93-559A7BDCECAA}"
+	ProjectSection(SolutionItems) = preProject
+		SGC.Web\src\browserslist = SGC.Web\src\browserslist
+		SGC.Web\src\favicon.ico = SGC.Web\src\favicon.ico
+		SGC.Web\src\index.html = SGC.Web\src\index.html
+		SGC.Web\src\karma.conf.js = SGC.Web\src\karma.conf.js
+		SGC.Web\src\main.ts = SGC.Web\src\main.ts
+		SGC.Web\src\polyfills.ts = SGC.Web\src\polyfills.ts
+		SGC.Web\src\styles.scss = SGC.Web\src\styles.scss
+		SGC.Web\src\test.ts = SGC.Web\src\test.ts
+		SGC.Web\src\tsconfig.app.json = SGC.Web\src\tsconfig.app.json
+		SGC.Web\src\tsconfig.spec.json = SGC.Web\src\tsconfig.spec.json
+		SGC.Web\src\tslint.json = SGC.Web\src\tslint.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "e2e", "e2e", "{E5EAB44C-6985-459F-A323-71EB2F0D1019}"
+	ProjectSection(SolutionItems) = preProject
+		SGC.Web\e2e\protractor.conf.js = SGC.Web\e2e\protractor.conf.js
+		SGC.Web\e2e\tsconfig.e2e.json = SGC.Web\e2e\tsconfig.e2e.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BA9F4BDE-585C-4F90-8093-112CE9C63B6D}"
+	ProjectSection(SolutionItems) = preProject
+		SGC.Web\e2e\src\app.e2e-spec.ts = SGC.Web\e2e\src\app.e2e-spec.ts
+		SGC.Web\e2e\src\app.po.ts = SGC.Web\e2e\src\app.po.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "app", "app", "{53853A33-1748-4290-8658-A195E5B980FB}"
+	ProjectSection(SolutionItems) = preProject
+		SGC.Web\src\app\app-routing.module.ts = SGC.Web\src\app\app-routing.module.ts
+		SGC.Web\src\app\app.component.html = SGC.Web\src\app\app.component.html
+		SGC.Web\src\app\app.component.scss = SGC.Web\src\app\app.component.scss
+		SGC.Web\src\app\app.component.spec.ts = SGC.Web\src\app\app.component.spec.ts
+		SGC.Web\src\app\app.component.ts = SGC.Web\src\app\app.component.ts
+		SGC.Web\src\app\app.module.ts = SGC.Web\src\app\app.module.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "assets", "assets", "{4D3F6EB0-AA38-42B8-8708-A61A7F1ACD01}"
+	ProjectSection(SolutionItems) = preProject
+		SGC.Web\src\assets\.gitkeep = SGC.Web\src\assets\.gitkeep
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "environments", "environments", "{501A5B8F-40A7-4666-9244-ED51A4EA01B6}"
+	ProjectSection(SolutionItems) = preProject
+		SGC.Web\src\environments\environment.prod.ts = SGC.Web\src\environments\environment.prod.ts
+		SGC.Web\src\environments\environment.ts = SGC.Web\src\environments\environment.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "page", "page", "{CFB99E25-2E48-495A-BF07-FFB66C5CE119}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shared", "shared", "{4F16F20E-BC24-431D-A343-238D772B8A25}"
+	ProjectSection(SolutionItems) = preProject
+		SGC.Web\src\app\shared\constant.ts = SGC.Web\src\app\shared\constant.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "about", "about", "{EF3872D7-50BD-4159-A891-A2F024E72EE7}"
+	ProjectSection(SolutionItems) = preProject
+		SGC.Web\src\app\page\about\about.component.html = SGC.Web\src\app\page\about\about.component.html
+		SGC.Web\src\app\page\about\about.component.scss = SGC.Web\src\app\page\about\about.component.scss
+		SGC.Web\src\app\page\about\about.component.spec.ts = SGC.Web\src\app\page\about\about.component.spec.ts
+		SGC.Web\src\app\page\about\about.component.ts = SGC.Web\src\app\page\about\about.component.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "error", "error", "{FCD4A5B3-05F1-4F36-9597-D4E517FEFD60}"
+	ProjectSection(SolutionItems) = preProject
+		SGC.Web\src\app\page\error\error.component.html = SGC.Web\src\app\page\error\error.component.html
+		SGC.Web\src\app\page\error\error.component.scss = SGC.Web\src\app\page\error\error.component.scss
+		SGC.Web\src\app\page\error\error.component.spec.ts = SGC.Web\src\app\page\error\error.component.spec.ts
+		SGC.Web\src\app\page\error\error.component.ts = SGC.Web\src\app\page\error\error.component.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "header", "header", "{B1BACC2C-4BAD-4D07-A04A-6D85D4ED865F}"
+	ProjectSection(SolutionItems) = preProject
+		SGC.Web\src\app\page\header\header.component.html = SGC.Web\src\app\page\header\header.component.html
+		SGC.Web\src\app\page\header\header.component.scss = SGC.Web\src\app\page\header\header.component.scss
+		SGC.Web\src\app\page\header\header.component.spec.ts = SGC.Web\src\app\page\header\header.component.spec.ts
+		SGC.Web\src\app\page\header\header.component.ts = SGC.Web\src\app\page\header\header.component.ts
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "home", "home", "{D29A680D-E69D-4CEB-B797-58A4C7311FAF}"
+	ProjectSection(SolutionItems) = preProject
+		SGC.Web\src\app\page\home\home.component.html = SGC.Web\src\app\page\home\home.component.html
+		SGC.Web\src\app\page\home\home.component.scss = SGC.Web\src\app\page\home\home.component.scss
+		SGC.Web\src\app\page\home\home.component.spec.ts = SGC.Web\src\app\page\home\home.component.spec.ts
+		SGC.Web\src\app\page\home\home.component.ts = SGC.Web\src\app\page\home\home.component.ts
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEBD013B-E003-416F-80BA-1CDD5DE06559}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEBD013B-E003-416F-80BA-1CDD5DE06559}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEBD013B-E003-416F-80BA-1CDD5DE06559}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{AEBD013B-E003-416F-80BA-1CDD5DE06559}.Debug|x64.Build.0 = Debug|Any CPU
+		{AEBD013B-E003-416F-80BA-1CDD5DE06559}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AEBD013B-E003-416F-80BA-1CDD5DE06559}.Debug|x86.Build.0 = Debug|Any CPU
+		{AEBD013B-E003-416F-80BA-1CDD5DE06559}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEBD013B-E003-416F-80BA-1CDD5DE06559}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEBD013B-E003-416F-80BA-1CDD5DE06559}.Release|x64.ActiveCfg = Release|Any CPU
+		{AEBD013B-E003-416F-80BA-1CDD5DE06559}.Release|x64.Build.0 = Release|Any CPU
+		{AEBD013B-E003-416F-80BA-1CDD5DE06559}.Release|x86.ActiveCfg = Release|Any CPU
+		{AEBD013B-E003-416F-80BA-1CDD5DE06559}.Release|x86.Build.0 = Release|Any CPU
+		{D84EDD70-E2E2-4E26-8681-32BB55ACF76B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D84EDD70-E2E2-4E26-8681-32BB55ACF76B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D84EDD70-E2E2-4E26-8681-32BB55ACF76B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D84EDD70-E2E2-4E26-8681-32BB55ACF76B}.Debug|x64.Build.0 = Debug|Any CPU
+		{D84EDD70-E2E2-4E26-8681-32BB55ACF76B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D84EDD70-E2E2-4E26-8681-32BB55ACF76B}.Debug|x86.Build.0 = Debug|Any CPU
+		{D84EDD70-E2E2-4E26-8681-32BB55ACF76B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D84EDD70-E2E2-4E26-8681-32BB55ACF76B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D84EDD70-E2E2-4E26-8681-32BB55ACF76B}.Release|x64.ActiveCfg = Release|Any CPU
+		{D84EDD70-E2E2-4E26-8681-32BB55ACF76B}.Release|x64.Build.0 = Release|Any CPU
+		{D84EDD70-E2E2-4E26-8681-32BB55ACF76B}.Release|x86.ActiveCfg = Release|Any CPU
+		{D84EDD70-E2E2-4E26-8681-32BB55ACF76B}.Release|x86.Build.0 = Release|Any CPU
+		{AD33B4B6-23D8-4478-9C19-BBABABD4FE55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD33B4B6-23D8-4478-9C19-BBABABD4FE55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD33B4B6-23D8-4478-9C19-BBABABD4FE55}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{AD33B4B6-23D8-4478-9C19-BBABABD4FE55}.Debug|x64.Build.0 = Debug|Any CPU
+		{AD33B4B6-23D8-4478-9C19-BBABABD4FE55}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AD33B4B6-23D8-4478-9C19-BBABABD4FE55}.Debug|x86.Build.0 = Debug|Any CPU
+		{AD33B4B6-23D8-4478-9C19-BBABABD4FE55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD33B4B6-23D8-4478-9C19-BBABABD4FE55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD33B4B6-23D8-4478-9C19-BBABABD4FE55}.Release|x64.ActiveCfg = Release|Any CPU
+		{AD33B4B6-23D8-4478-9C19-BBABABD4FE55}.Release|x64.Build.0 = Release|Any CPU
+		{AD33B4B6-23D8-4478-9C19-BBABABD4FE55}.Release|x86.ActiveCfg = Release|Any CPU
+		{AD33B4B6-23D8-4478-9C19-BBABABD4FE55}.Release|x86.Build.0 = Release|Any CPU
+		{3B453F6A-0554-4EBB-AC26-2EEABDA5492B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B453F6A-0554-4EBB-AC26-2EEABDA5492B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B453F6A-0554-4EBB-AC26-2EEABDA5492B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{3B453F6A-0554-4EBB-AC26-2EEABDA5492B}.Debug|x64.Build.0 = Debug|Any CPU
+		{3B453F6A-0554-4EBB-AC26-2EEABDA5492B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3B453F6A-0554-4EBB-AC26-2EEABDA5492B}.Debug|x86.Build.0 = Debug|Any CPU
+		{3B453F6A-0554-4EBB-AC26-2EEABDA5492B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B453F6A-0554-4EBB-AC26-2EEABDA5492B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B453F6A-0554-4EBB-AC26-2EEABDA5492B}.Release|x64.ActiveCfg = Release|Any CPU
+		{3B453F6A-0554-4EBB-AC26-2EEABDA5492B}.Release|x64.Build.0 = Release|Any CPU
+		{3B453F6A-0554-4EBB-AC26-2EEABDA5492B}.Release|x86.ActiveCfg = Release|Any CPU
+		{3B453F6A-0554-4EBB-AC26-2EEABDA5492B}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AEBD013B-E003-416F-80BA-1CDD5DE06559} = {632A3EC9-1287-424C-AA37-8BB83DCC4E4D}
+		{D84EDD70-E2E2-4E26-8681-32BB55ACF76B} = {C693987D-9D6E-4381-B1D5-DD5476A08961}
+		{AD33B4B6-23D8-4478-9C19-BBABABD4FE55} = {893129F1-FEDC-4E30-A906-342763E949CD}
+		{3B453F6A-0554-4EBB-AC26-2EEABDA5492B} = {0E5E7841-F7F0-49C1-84B6-5E894A85A8B9}
+		{B682C3B8-9EEB-4814-9D93-559A7BDCECAA} = {3CD54F81-CF6D-4502-9545-1C458EDFF2FD}
+		{E5EAB44C-6985-459F-A323-71EB2F0D1019} = {3CD54F81-CF6D-4502-9545-1C458EDFF2FD}
+		{BA9F4BDE-585C-4F90-8093-112CE9C63B6D} = {E5EAB44C-6985-459F-A323-71EB2F0D1019}
+		{53853A33-1748-4290-8658-A195E5B980FB} = {B682C3B8-9EEB-4814-9D93-559A7BDCECAA}
+		{4D3F6EB0-AA38-42B8-8708-A61A7F1ACD01} = {B682C3B8-9EEB-4814-9D93-559A7BDCECAA}
+		{501A5B8F-40A7-4666-9244-ED51A4EA01B6} = {B682C3B8-9EEB-4814-9D93-559A7BDCECAA}
+		{CFB99E25-2E48-495A-BF07-FFB66C5CE119} = {53853A33-1748-4290-8658-A195E5B980FB}
+		{4F16F20E-BC24-431D-A343-238D772B8A25} = {53853A33-1748-4290-8658-A195E5B980FB}
+		{EF3872D7-50BD-4159-A891-A2F024E72EE7} = {CFB99E25-2E48-495A-BF07-FFB66C5CE119}
+		{FCD4A5B3-05F1-4F36-9597-D4E517FEFD60} = {CFB99E25-2E48-495A-BF07-FFB66C5CE119}
+		{B1BACC2C-4BAD-4D07-A04A-6D85D4ED865F} = {CFB99E25-2E48-495A-BF07-FFB66C5CE119}
+		{D29A680D-E69D-4CEB-B797-58A4C7311FAF} = {CFB99E25-2E48-495A-BF07-FFB66C5CE119}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8AECC69-57D0-449D-A982-C3E2D21175D6}
+	EndGlobalSection
+EndGlobal
